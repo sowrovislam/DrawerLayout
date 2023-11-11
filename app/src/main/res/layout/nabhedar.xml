@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC107"
+
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:scaleType="centerCrop"
+     android:src="@drawable/img"
+       android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sowrov islam"
+        android:layout_marginStart="10dp"
+        android:textColor="#000000"
+        android:textSize="34dp"
+      />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sowrovnil%@gmail.com"
+        android:textSize="16dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        />
+
+
+
+
+</LinearLayout>

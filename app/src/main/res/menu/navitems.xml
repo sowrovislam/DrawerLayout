@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:id="@+id/gorup1"
+    >
+
+
+
+    <item
+        android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/profile"
+        android:title="profile"
+        android:icon="@drawable/profile"
+        android:checkable="true"
+        />
+
+
+    <item
+        android:id="@+id/notification"
+        android:title="notification"
+        android:icon="@drawable/baseline_notifications_24"
+        android:checkable="true"
+        />
+
+</group>
+
+    <group
+        android:id="@+id/gorup2"
+        >
+
+
+
+        <item
+            android:id="@+id/seting"
+            android:title="seting"
+            android:icon="@drawable/baseline_settings_24"
+            android:checkable="true"
+            />
+
+
+
+    </group>
+
+
+
+
+
+</menu>
